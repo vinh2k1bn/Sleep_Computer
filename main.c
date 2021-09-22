@@ -230,14 +230,12 @@ int wmain(int argc, wchar_t** argv)
 		return 1;
 	}
 
-	if (bcorrectSyntax && offMode == HIBERNATE_MODE)
-	{
-		wprintf(L"%ls\n%ls\n%ls\n%ls\n", language[6], language[7], language[8],language[9]);
-	}
-
 	if (bcorrectSyntax && countdown >= 0 && displayTime >= 0)
 	{
 		//wprintf(L"Correct syntax\n");
+		if (offMode == HIBERNATE_MODE)
+			wprintf(L"%ls\n%ls\n%ls\n%ls\n", language[6], language[7], language[8], language[9]);
+
 		wprintf(L"%ls ", (offMode == SLEEP_MODE) ? language[0] : language[1]);
 		formatTime(countdown);
 		wprintf(L".\n");
