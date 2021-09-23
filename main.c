@@ -387,7 +387,7 @@ long stringToSeconds(const wchar_t* str)
 	int h, m, s = 0;
 	if (swscanf(str, L"%d:%d:%d", &h, &m, &s) >= 2)	/* case h:m:s */
 	{
-		wprintf(L"%d %d %d\n", h, m, s);
+		//wprintf(L"%d %d %d\n", h, m, s);
 		sec = h * 3600 + m * 60 + s;
 	}
 	else if (swscanf(str, L"%d", &s) == 1)			/* case nn */
