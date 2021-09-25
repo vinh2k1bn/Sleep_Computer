@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+  <body>
 <h1> Giới thiệu </h1>
 <p> &emsp; Khi biên dịch code sẽ tạo ra tiện ích command line dùng để lập lịch tự động Sleep, Hibernate máy tính. Yêu cầu Windows 10 hoặc cao hơn, ngôn ngữ hiển thị là tiếng Anh. Bạn không thể dùng phần mềm theo cách thông thường là mở phần mềm. Bạn phải truyền tham số thông qua giao diện dòng lệnh (CLI) để sử dụng. Phần mềm hiện tại không hoạt động độc lập với CLI nên nếu bạn muốn lập lịch nên thông qua file script hoặc shortcut
   </p>
@@ -7,3 +10,7 @@
   <p> 
   &emsp;Vì cơ chế hoạt động ở trên, nếu bạn dùng phần mềm qua CLI sau đó tắt CLI phần mềm cũng tắt luôn và không lập lịch được, và CLI cũng không cho phép nhập lệnh tiếp theo do phải đợi phần mềm kết thúc.
   </p>
+  <h1> Demo </h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OaVJcoxPAj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+ </html>
