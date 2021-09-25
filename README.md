@@ -11,6 +11,5 @@
   &emsp;Vì cơ chế hoạt động ở trên, nếu bạn dùng phần mềm qua CLI sau đó tắt CLI phần mềm cũng tắt luôn và không lập lịch được, và CLI cũng không cho phép nhập lệnh tiếp theo do phải đợi phần mềm kết thúc.
   </p>
   <h1> Demo </h1>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OaVJcoxPAj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </body>
  </html>
